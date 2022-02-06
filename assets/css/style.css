@@ -1,0 +1,21 @@
+.top-navber {
+  background-color: #173a69;
+}
+.banner {
+  background-image: linear-gradient(to right, #d9d6d6b8, #f9efefb0),
+    url(../images/bg1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.banner-info {
+  margin-top: 200px;
+}
+.banner-info p {
+  margin-right: 200px;
+}
+.about {
+  background-image: url(../images/about.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
