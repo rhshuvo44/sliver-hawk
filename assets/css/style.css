@@ -14,8 +14,51 @@
 .banner-info p {
   margin-right: 200px;
 }
+.common_button {
+  border: 3px solid #173a69;
+  margin-top: 25px;
+  /* display: inline-block; */
+  margin-right: 12px;
+  background-color: #173a69;
+  color: white;
+  text-align: center;
+  padding: 13px 21px;
+  font-size: 14px;
+  font-weight: 700;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+.common_button:hover {
+  background-color: transparent;
+  color: #173a69;
+}
+.button-get {
+  background-color: transparent;
+  color: #173a69;
+}
+.button-get:hover{
+  background-color: #173a69;
+  color: white;
+}
 .about {
   background-image: url(../images/about.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+.contact {
+  background-color: #173a69;
+}
+.contact-social i {
+  border: 1px solid gray;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 17px;
+  color: gray;
+  padding: 12px;
+  margin: 25px 16px;
+}
+
+.contact-social i:hover {
+  background-color: rgba(36, 36, 172, 0.637);
+  color: #fff;
 }
